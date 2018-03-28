@@ -28,16 +28,16 @@ Anyway, 扯远了。学习ROS的主要原因就在于一下几点。
 
 跳过简单部分，从创建ROS程序包开始
 在catkin工作空间中的程序包架构
-workspace_folder/
-   src/
-      CMakeLists.txt
-	  package_1/
-	      CMakeLists.txt
-		  package.xml
-	  ... ...
-	  package_n/
-	      CMakeLists.txt
-		  package.xml
+	workspace_folder/
+		src/
+			CMakeLists.txt
+			package_1/
+				CMakeLists.txt
+				package.xml
+			... ...
+				package_n/
+				CMakeLists.txt
+				package.xml
 
 
 
