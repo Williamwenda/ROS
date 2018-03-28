@@ -23,5 +23,6 @@ Anyway, 扯远了。学习ROS的主要原因就在于一下几点。
 学习ROS主要是在Ubuntu上玩儿，所以这个 repository 就当一个学习笔记吧。
 
 我的学习资料为
-[wiki.ROS.Tutorial](http://wiki.ros.org/cn/ROS/Tutorials)
+
+[wiki.ROS.Tutorial : http://wiki.ros.org/cn/ROS/Tutorials](http://wiki.ros.org/cn/ROS/Tutorials)
 
