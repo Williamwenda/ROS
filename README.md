@@ -40,6 +40,20 @@ Anyway, 扯远了。学习ROS的主要原因就在于一下几点。
 	        CMakeLists.txt
 	        package.xml
 
+## 创建ROS程序包
+
+首先，创建一个 catkin 程序包，在 catkin 工作空间中的 src 目录下：
+
+	$ cd ~/catkin_ws/src
+	$ catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
+
+创建了一个名为beginner_tutorials的文件夹，其中包含一个package.xml文件和一个CMakeList.txt文件。
+catkin_create_pkg的语法为
+
+	# catkin_create_pkg  <package_name> [depend1] [depend2] [depend3]
+	
+	
+
 
 
 
