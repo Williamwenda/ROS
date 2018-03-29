@@ -52,6 +52,64 @@ catkin_create_pkg的语法为
 
 	# catkin_create_pkg  <package_name> [depend1] [depend2] [depend3]
 	
+对自动生成的package.xml文件进行修改，对依赖项标签的修改。由于在创建程序包时添加了依赖项，因此自动生成的
+依赖项为：
+
+	<buildtool_depend>catkin</buildtool_depend>
+	<build_depend>roscpp</build_depend>
+	<build_depend>rospy</build_depend>
+	<build_depend>std_msgs</build_depend>
+	
+由于在编译和运行时我们需要用到所有指定的依赖包，因此需要将每一个依赖包分别添加到run_depend标签中
+
+	<buildtool_depend>catkin</buildtool_depend>
+	
+	<build_depend>roscpp</build_depend>
+	<build_depend>rospy</build_depend>
+	<build_depend>std_msgs</build_depend>
+	
+	<exec_depend>roscpp</exec_depend>
+	<exec_depend>rospy</exec_depend>
+	<exec_depend>std_msgs</exec_depend>
+
+最后完成的package.xml文件为
+
+	<?xml version="1.0"?>
+	<package format="2">
+	     <name>beginner_tutorials</name>
+	     <version>0.1.0</version>
+	     <description>The beginner_tutorials package</description>
+
+	     <maintainer email="you@yourdomain.tld">Your Name</maintainer>
+	     <license>BSD</license>
+	     <url type="website">http://wiki.ros.org/beginner_tutorials</url>
+	     <author email="you@yourdomain.tld">Jane Doe</author>
+ 
+	     <buildtool_depend>catkin</buildtool_depend>
+
+	     <build_depend>roscpp</build_depend>
+	     <build_depend>rospy</build_depend>
+	     <build_depend>std_msgs</build_depend>
+ 
+	     <exec_depend>roscpp</exec_depend>
+	     <exec_depend>rospy</exec_depend>
+	     <exec_depend>std_msgs</exec_depend>
+
+	</package>
+
+## 编译ROS程序包
+
+在编译ROS程序包之前，需要source环境配置(setup)文件，在新开的终端中也要执行此命令。有一次性永久解决的方法，
+但在我的机器上并没有取得效果，因此暂时不加以描述。（之后玩儿熟了会回来解决这个问题）
+
+	$ source /opt/ros/kinetic/setup.bash
+
+使用catkin_make编译程序包，在catkin工作空间中进行编译
+
+	$ cd ~/catkin_ws/
+	$ catkin_make
+
+	
 	
 
 
