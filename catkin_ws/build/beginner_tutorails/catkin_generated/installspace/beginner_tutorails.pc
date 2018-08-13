@@ -1,0 +1,8 @@
+prefix=/home/william/ROS/catkin_ws/install
+
+Name: beginner_tutorails
+Description: Description of beginner_tutorails
+Version: 0.0.0
+Cflags: -I/home/william/ROS/catkin_ws/install/include
+Libs: -L/home/william/ROS/catkin_ws/install/lib 
+Requires: message_runtime
