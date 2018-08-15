@@ -287,6 +287,12 @@ beginner_tutorails_BINARY_DIR:STATIC=/home/william/ROS/catkin_ws/build/beginner_
 //Value Computed by CMake
 beginner_tutorails_SOURCE_DIR:STATIC=/home/william/ROS/catkin_ws/src/beginner_tutorails
 
+//Value Computed by CMake
+beginner_tutorials_BINARY_DIR:STATIC=/home/william/ROS/catkin_ws/build/beginner_tutorials
+
+//Value Computed by CMake
+beginner_tutorials_SOURCE_DIR:STATIC=/home/william/ROS/catkin_ws/src/beginner_tutorials
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
 
