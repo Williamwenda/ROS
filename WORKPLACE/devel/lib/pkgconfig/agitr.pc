@@ -1,0 +1,8 @@
+prefix=/home/william/ROS/WORKPLACE/devel
+
+Name: agitr
+Description: Description of agitr
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/william/ROS/WORKPLACE/devel/lib 
+Requires: 
