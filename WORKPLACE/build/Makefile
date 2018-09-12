@@ -285,6 +285,58 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named spawn_turtle
+
+# Build rule for target.
+spawn_turtle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 spawn_turtle
+.PHONY : spawn_turtle
+
+# fast build rule for target.
+spawn_turtle/fast:
+	$(MAKE) -f agitr/CMakeFiles/spawn_turtle.dir/build.make agitr/CMakeFiles/spawn_turtle.dir/build
+.PHONY : spawn_turtle/fast
+
+#=============================================================================
+# Target rules for targets named pubvel_with_max
+
+# Build rule for target.
+pubvel_with_max: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pubvel_with_max
+.PHONY : pubvel_with_max
+
+# fast build rule for target.
+pubvel_with_max/fast:
+	$(MAKE) -f agitr/CMakeFiles/pubvel_with_max.dir/build.make agitr/CMakeFiles/pubvel_with_max.dir/build
+.PHONY : pubvel_with_max/fast
+
+#=============================================================================
+# Target rules for targets named count
+
+# Build rule for target.
+count: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 count
+.PHONY : count
+
+# fast build rule for target.
+count/fast:
+	$(MAKE) -f agitr/CMakeFiles/count.dir/build.make agitr/CMakeFiles/count.dir/build
+.PHONY : count/fast
+
+#=============================================================================
+# Target rules for targets named reverse_cmd_vel
+
+# Build rule for target.
+reverse_cmd_vel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reverse_cmd_vel
+.PHONY : reverse_cmd_vel
+
+# fast build rule for target.
+reverse_cmd_vel/fast:
+	$(MAKE) -f agitr/CMakeFiles/reverse_cmd_vel.dir/build.make agitr/CMakeFiles/reverse_cmd_vel.dir/build
+.PHONY : reverse_cmd_vel/fast
+
+#=============================================================================
 # Target rules for targets named subpose
 
 # Build rule for target.
@@ -322,6 +374,19 @@ hello: cmake_check_build_system
 hello/fast:
 	$(MAKE) -f agitr/CMakeFiles/hello.dir/build.make agitr/CMakeFiles/hello.dir/build
 .PHONY : hello/fast
+
+#=============================================================================
+# Target rules for targets named set_bg_color
+
+# Build rule for target.
+set_bg_color: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 set_bg_color
+.PHONY : set_bg_color
+
+# fast build rule for target.
+set_bg_color/fast:
+	$(MAKE) -f agitr/CMakeFiles/set_bg_color.dir/build.make agitr/CMakeFiles/set_bg_color.dir/build
+.PHONY : set_bg_color/fast
 
 #=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_py
@@ -480,6 +545,19 @@ rosgraph_msgs_generate_messages_eus/fast:
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 #=============================================================================
+# Target rules for targets named anon
+
+# Build rule for target.
+anon: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 anon
+.PHONY : anon
+
+# fast build rule for target.
+anon/fast:
+	$(MAKE) -f agitr/CMakeFiles/anon.dir/build.make agitr/CMakeFiles/anon.dir/build
+.PHONY : anon/fast
+
+#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -605,9 +683,14 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... spawn_turtle"
+	@echo "... pubvel_with_max"
+	@echo "... count"
+	@echo "... reverse_cmd_vel"
 	@echo "... subpose"
 	@echo "... pubvel"
 	@echo "... hello"
+	@echo "... set_bg_color"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_eus"
@@ -620,6 +703,7 @@ help:
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... anon"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"

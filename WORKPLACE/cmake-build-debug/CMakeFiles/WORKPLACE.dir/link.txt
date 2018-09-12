@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/WORKPLACE.dir/src/agitr/count.cpp.o CMakeFiles/WORKPLACE.dir/src/agitr/hello.cpp.o CMakeFiles/WORKPLACE.dir/src/agitr/pubvel.cpp.o CMakeFiles/WORKPLACE.dir/src/agitr/subpose.cpp.o  -o WORKPLACE 

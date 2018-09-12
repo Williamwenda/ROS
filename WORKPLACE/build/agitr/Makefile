@@ -168,6 +168,66 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+agitr/CMakeFiles/spawn_turtle.dir/rule:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/spawn_turtle.dir/rule
+.PHONY : agitr/CMakeFiles/spawn_turtle.dir/rule
+
+# Convenience name for target.
+spawn_turtle: agitr/CMakeFiles/spawn_turtle.dir/rule
+
+.PHONY : spawn_turtle
+
+# fast build rule for target.
+spawn_turtle/fast:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/spawn_turtle.dir/build.make agitr/CMakeFiles/spawn_turtle.dir/build
+.PHONY : spawn_turtle/fast
+
+# Convenience name for target.
+agitr/CMakeFiles/pubvel_with_max.dir/rule:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/pubvel_with_max.dir/rule
+.PHONY : agitr/CMakeFiles/pubvel_with_max.dir/rule
+
+# Convenience name for target.
+pubvel_with_max: agitr/CMakeFiles/pubvel_with_max.dir/rule
+
+.PHONY : pubvel_with_max
+
+# fast build rule for target.
+pubvel_with_max/fast:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/pubvel_with_max.dir/build.make agitr/CMakeFiles/pubvel_with_max.dir/build
+.PHONY : pubvel_with_max/fast
+
+# Convenience name for target.
+agitr/CMakeFiles/count.dir/rule:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/count.dir/rule
+.PHONY : agitr/CMakeFiles/count.dir/rule
+
+# Convenience name for target.
+count: agitr/CMakeFiles/count.dir/rule
+
+.PHONY : count
+
+# fast build rule for target.
+count/fast:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/count.dir/build.make agitr/CMakeFiles/count.dir/build
+.PHONY : count/fast
+
+# Convenience name for target.
+agitr/CMakeFiles/reverse_cmd_vel.dir/rule:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/reverse_cmd_vel.dir/rule
+.PHONY : agitr/CMakeFiles/reverse_cmd_vel.dir/rule
+
+# Convenience name for target.
+reverse_cmd_vel: agitr/CMakeFiles/reverse_cmd_vel.dir/rule
+
+.PHONY : reverse_cmd_vel
+
+# fast build rule for target.
+reverse_cmd_vel/fast:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/reverse_cmd_vel.dir/build.make agitr/CMakeFiles/reverse_cmd_vel.dir/build
+.PHONY : reverse_cmd_vel/fast
+
+# Convenience name for target.
 agitr/CMakeFiles/subpose.dir/rule:
 	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/subpose.dir/rule
 .PHONY : agitr/CMakeFiles/subpose.dir/rule
@@ -211,6 +271,21 @@ hello: agitr/CMakeFiles/hello.dir/rule
 hello/fast:
 	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/hello.dir/build.make agitr/CMakeFiles/hello.dir/build
 .PHONY : hello/fast
+
+# Convenience name for target.
+agitr/CMakeFiles/set_bg_color.dir/rule:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/set_bg_color.dir/rule
+.PHONY : agitr/CMakeFiles/set_bg_color.dir/rule
+
+# Convenience name for target.
+set_bg_color: agitr/CMakeFiles/set_bg_color.dir/rule
+
+.PHONY : set_bg_color
+
+# fast build rule for target.
+set_bg_color/fast:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/set_bg_color.dir/build.make agitr/CMakeFiles/set_bg_color.dir/build
+.PHONY : set_bg_color/fast
 
 # Convenience name for target.
 agitr/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
@@ -393,6 +468,21 @@ rosgraph_msgs_generate_messages_eus/fast:
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
+agitr/CMakeFiles/anon.dir/rule:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/anon.dir/rule
+.PHONY : agitr/CMakeFiles/anon.dir/rule
+
+# Convenience name for target.
+anon: agitr/CMakeFiles/anon.dir/rule
+
+.PHONY : anon
+
+# fast build rule for target.
+anon/fast:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/anon.dir/build.make agitr/CMakeFiles/anon.dir/build
+.PHONY : anon/fast
+
+# Convenience name for target.
 agitr/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
 	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f CMakeFiles/Makefile2 agitr/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : agitr/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
@@ -512,6 +602,60 @@ std_msgs_generate_messages_py/fast:
 	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/std_msgs_generate_messages_py.dir/build.make agitr/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
+anon.o: anon.cpp.o
+
+.PHONY : anon.o
+
+# target to build an object file
+anon.cpp.o:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/anon.dir/build.make agitr/CMakeFiles/anon.dir/anon.cpp.o
+.PHONY : anon.cpp.o
+
+anon.i: anon.cpp.i
+
+.PHONY : anon.i
+
+# target to preprocess a source file
+anon.cpp.i:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/anon.dir/build.make agitr/CMakeFiles/anon.dir/anon.cpp.i
+.PHONY : anon.cpp.i
+
+anon.s: anon.cpp.s
+
+.PHONY : anon.s
+
+# target to generate assembly for a file
+anon.cpp.s:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/anon.dir/build.make agitr/CMakeFiles/anon.dir/anon.cpp.s
+.PHONY : anon.cpp.s
+
+count.o: count.cpp.o
+
+.PHONY : count.o
+
+# target to build an object file
+count.cpp.o:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/count.dir/build.make agitr/CMakeFiles/count.dir/count.cpp.o
+.PHONY : count.cpp.o
+
+count.i: count.cpp.i
+
+.PHONY : count.i
+
+# target to preprocess a source file
+count.cpp.i:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/count.dir/build.make agitr/CMakeFiles/count.dir/count.cpp.i
+.PHONY : count.cpp.i
+
+count.s: count.cpp.s
+
+.PHONY : count.s
+
+# target to generate assembly for a file
+count.cpp.s:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/count.dir/build.make agitr/CMakeFiles/count.dir/count.cpp.s
+.PHONY : count.cpp.s
+
 hello.o: hello.cpp.o
 
 .PHONY : hello.o
@@ -566,6 +710,114 @@ pubvel.cpp.s:
 	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/pubvel.dir/build.make agitr/CMakeFiles/pubvel.dir/pubvel.cpp.s
 .PHONY : pubvel.cpp.s
 
+pubvel_with_max.o: pubvel_with_max.cpp.o
+
+.PHONY : pubvel_with_max.o
+
+# target to build an object file
+pubvel_with_max.cpp.o:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/pubvel_with_max.dir/build.make agitr/CMakeFiles/pubvel_with_max.dir/pubvel_with_max.cpp.o
+.PHONY : pubvel_with_max.cpp.o
+
+pubvel_with_max.i: pubvel_with_max.cpp.i
+
+.PHONY : pubvel_with_max.i
+
+# target to preprocess a source file
+pubvel_with_max.cpp.i:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/pubvel_with_max.dir/build.make agitr/CMakeFiles/pubvel_with_max.dir/pubvel_with_max.cpp.i
+.PHONY : pubvel_with_max.cpp.i
+
+pubvel_with_max.s: pubvel_with_max.cpp.s
+
+.PHONY : pubvel_with_max.s
+
+# target to generate assembly for a file
+pubvel_with_max.cpp.s:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/pubvel_with_max.dir/build.make agitr/CMakeFiles/pubvel_with_max.dir/pubvel_with_max.cpp.s
+.PHONY : pubvel_with_max.cpp.s
+
+reverse_cmd_vel.o: reverse_cmd_vel.cpp.o
+
+.PHONY : reverse_cmd_vel.o
+
+# target to build an object file
+reverse_cmd_vel.cpp.o:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/reverse_cmd_vel.dir/build.make agitr/CMakeFiles/reverse_cmd_vel.dir/reverse_cmd_vel.cpp.o
+.PHONY : reverse_cmd_vel.cpp.o
+
+reverse_cmd_vel.i: reverse_cmd_vel.cpp.i
+
+.PHONY : reverse_cmd_vel.i
+
+# target to preprocess a source file
+reverse_cmd_vel.cpp.i:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/reverse_cmd_vel.dir/build.make agitr/CMakeFiles/reverse_cmd_vel.dir/reverse_cmd_vel.cpp.i
+.PHONY : reverse_cmd_vel.cpp.i
+
+reverse_cmd_vel.s: reverse_cmd_vel.cpp.s
+
+.PHONY : reverse_cmd_vel.s
+
+# target to generate assembly for a file
+reverse_cmd_vel.cpp.s:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/reverse_cmd_vel.dir/build.make agitr/CMakeFiles/reverse_cmd_vel.dir/reverse_cmd_vel.cpp.s
+.PHONY : reverse_cmd_vel.cpp.s
+
+set_bg_color.o: set_bg_color.cpp.o
+
+.PHONY : set_bg_color.o
+
+# target to build an object file
+set_bg_color.cpp.o:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/set_bg_color.dir/build.make agitr/CMakeFiles/set_bg_color.dir/set_bg_color.cpp.o
+.PHONY : set_bg_color.cpp.o
+
+set_bg_color.i: set_bg_color.cpp.i
+
+.PHONY : set_bg_color.i
+
+# target to preprocess a source file
+set_bg_color.cpp.i:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/set_bg_color.dir/build.make agitr/CMakeFiles/set_bg_color.dir/set_bg_color.cpp.i
+.PHONY : set_bg_color.cpp.i
+
+set_bg_color.s: set_bg_color.cpp.s
+
+.PHONY : set_bg_color.s
+
+# target to generate assembly for a file
+set_bg_color.cpp.s:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/set_bg_color.dir/build.make agitr/CMakeFiles/set_bg_color.dir/set_bg_color.cpp.s
+.PHONY : set_bg_color.cpp.s
+
+spawn_turtle.o: spawn_turtle.cpp.o
+
+.PHONY : spawn_turtle.o
+
+# target to build an object file
+spawn_turtle.cpp.o:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/spawn_turtle.dir/build.make agitr/CMakeFiles/spawn_turtle.dir/spawn_turtle.cpp.o
+.PHONY : spawn_turtle.cpp.o
+
+spawn_turtle.i: spawn_turtle.cpp.i
+
+.PHONY : spawn_turtle.i
+
+# target to preprocess a source file
+spawn_turtle.cpp.i:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/spawn_turtle.dir/build.make agitr/CMakeFiles/spawn_turtle.dir/spawn_turtle.cpp.i
+.PHONY : spawn_turtle.cpp.i
+
+spawn_turtle.s: spawn_turtle.cpp.s
+
+.PHONY : spawn_turtle.s
+
+# target to generate assembly for a file
+spawn_turtle.cpp.s:
+	cd /home/william/ROS/WORKPLACE/build && $(MAKE) -f agitr/CMakeFiles/spawn_turtle.dir/build.make agitr/CMakeFiles/spawn_turtle.dir/spawn_turtle.cpp.s
+.PHONY : spawn_turtle.cpp.s
+
 subpose.o: subpose.cpp.o
 
 .PHONY : subpose.o
@@ -602,9 +854,14 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... rebuild_cache"
+	@echo "... spawn_turtle"
+	@echo "... pubvel_with_max"
+	@echo "... count"
+	@echo "... reverse_cmd_vel"
 	@echo "... subpose"
 	@echo "... pubvel"
 	@echo "... hello"
+	@echo "... set_bg_color"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... test"
 	@echo "... geometry_msgs_generate_messages_lisp"
@@ -621,6 +878,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... install"
 	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... anon"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
@@ -629,12 +887,30 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... anon.o"
+	@echo "... anon.i"
+	@echo "... anon.s"
+	@echo "... count.o"
+	@echo "... count.i"
+	@echo "... count.s"
 	@echo "... hello.o"
 	@echo "... hello.i"
 	@echo "... hello.s"
 	@echo "... pubvel.o"
 	@echo "... pubvel.i"
 	@echo "... pubvel.s"
+	@echo "... pubvel_with_max.o"
+	@echo "... pubvel_with_max.i"
+	@echo "... pubvel_with_max.s"
+	@echo "... reverse_cmd_vel.o"
+	@echo "... reverse_cmd_vel.i"
+	@echo "... reverse_cmd_vel.s"
+	@echo "... set_bg_color.o"
+	@echo "... set_bg_color.i"
+	@echo "... set_bg_color.s"
+	@echo "... spawn_turtle.o"
+	@echo "... spawn_turtle.i"
+	@echo "... spawn_turtle.s"
 	@echo "... subpose.o"
 	@echo "... subpose.i"
 	@echo "... subpose.s"
